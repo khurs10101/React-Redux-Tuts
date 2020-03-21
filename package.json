@@ -1,0 +1,42 @@
+{
+  "name": "react-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server dist/ ",
+    "build": "webpack --watch",
+    "dev-server": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "Khurshid Alam Bhuyan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-modal": "^3.10.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "uuid": "^3.3.3",
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
+  }
+}
